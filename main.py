@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from groq import Groq
 
 BASE_DIR = Path(__file__).resolve().parent
-DAILY_MISSION_HOURS = 0
+DAILY_MISSION_HOURS = 24
 
 load_dotenv(BASE_DIR / ".env")
 
